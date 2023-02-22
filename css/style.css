@@ -19,20 +19,15 @@ body {
     width: 100%;
 }
 
-section, footer, main, div {
-    /* debug */
-    border: 1px dashed black;
-}
-
 /* UTILITIES */
 .flex {
     display: flex;
 }
 
-/* sidebar section */
+/* SIDEBAR */
 .sidebar {
     height: calc(100vh - 100px);
-    width: 150px;
+    width: 200px;
     
     /* debug */
     background-color: yellowgreen;
@@ -41,24 +36,27 @@ section, footer, main, div {
 
 /* MAIN */
 main {
-    width: calc(100% - 150px);
+    width: calc(100% - 200px);
 }
 
+/* header */
 .header {
-    height: 70px;
+    height: 80px;
     width: 100%;
 
     /* debug */
     background-color: darkgreen;
 }
-
+/* end header*/
+/* content */
 .content {
-    height: calc(100vh - 70px - 100px);
+    height: calc(100vh - 80px - 100px);
     width: 100%;
 
     /* debug */
     background-color: chocolate;
 }
+/* end content section */
 
 /* FOOTER */
 footer {
