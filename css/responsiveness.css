@@ -1,6 +1,8 @@
 /* size m */
 @media screen and (max-width: 1100px) {
-    
+    .categories-list {
+        flex-wrap: wrap;
+    }
 }
 
 /* size s */

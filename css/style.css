@@ -130,6 +130,7 @@ ul {
 main {
     width: calc(100% - 200px);
 }
+
 /* header */
 .header {
     text-align: end;
@@ -154,8 +155,21 @@ main {
 .content {
     height: calc(100vh - 80px - 100px);
     width: 100%;
+    padding-top: 1rem;
     overflow-y: scroll;
     background-color: var(--content-color);
+}
+
+.categories-list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.categories-list li {
+    color: var(--sidebar-text-color);
+    text-transform: uppercase;
 }
 /* end content section */
 
