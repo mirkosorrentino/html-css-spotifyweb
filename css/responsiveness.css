@@ -13,10 +13,40 @@
 @media screen and (max-width: 600px) {
     .sidebar {
         width: 50px;
-        height: calc(100vh - 100px);;
+        height: calc(100vh - 100px);
+        padding: 0.5rem;
+    }
 
-        /* debug */
-        background-color: gold;
+    .big-logo {
+        display: none;
+    }
+
+    .small-logo {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .list-icon {
+        width: 90%;
+        padding-top: 0.3rem;
+    }
+
+    .playlist-title, .playlist {
+        display: none;
+    }
+
+    .sidebar-download-icon {
+        width: 50%;
+        margin-left: 0.3rem;
+    }
+
+    .sidebar-profile-icon {
+        width: 50%;
+        margin-left: 0.3rem;
     }
 
     main {
