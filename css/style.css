@@ -1,0 +1,29 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* COMMON */
+
+/* UTILITIES */
+
+/* HEADER */
+
+/* MAIN */
+/* sidebar section */
+/* end sidebar section */
+
+/* content section */
+/* end content section */
+
+/* FOOTER */
