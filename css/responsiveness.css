@@ -3,11 +3,17 @@
     .categories-list {
         flex-wrap: wrap;
     }
+
+    .card {
+        width: calc(100% / 4 - 15px / 3);
+    }
 }
 
 /* size s */
 @media screen and (max-width: 700px) {
-    
+    .card {
+        width: calc(100% / 2 - 5px);
+    }
 }
 
 
