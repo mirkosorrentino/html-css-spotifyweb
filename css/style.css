@@ -195,8 +195,8 @@ main {
 }
 
 .card {
-    width: calc(100% / 6 - 25px / 5);
-    margin-right: 5px;
+    width: calc(100% / 6 - 10px);
+    margin-right: 10px;
     margin-top: 1.5rem;
 }
 
@@ -212,6 +212,10 @@ main {
     text-align: center;
     color: var(--sidebar-text-color);
     padding-bottom: 1rem;
+}
+
+.singers {
+    border-radius: 50%;
 }
 /* end content section */
 
