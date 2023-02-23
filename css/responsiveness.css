@@ -7,6 +7,10 @@
     .card {
         width: calc(100% / 4 - 10px);
     }
+
+    .right-symbol {
+        padding-right: .1rem;
+    }
 }
 
 /* size s */
@@ -23,6 +27,10 @@
 
     .heart {
         padding-bottom: 0.2rem;
+    }
+
+    .right-symbol {
+        padding-right: .1rem;
     }
 }
 
