@@ -177,6 +177,10 @@ main {
     color: var(--sidebar-text-color);
     text-transform: uppercase;
 }
+
+.content-title {
+    color: white;
+}
 /* end content section */
 
 /* FOOTER */
