@@ -14,8 +14,17 @@
     .card {
         width: calc(100% / 2 - 10px);
     }
-}
 
+    .left-symbols {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heart {
+        padding-bottom: 0.2rem;
+    }
+}
 
 /* size xs */
 @media screen and (max-width: 600px) {
@@ -59,5 +68,18 @@
 
     main {
         width: calc(100% - 50px);
+    }
+
+    .left-footer {
+        padding: 1rem .5rem;
+    }
+
+    .song-player-photo {
+        scale: .6;
+    }
+
+    .song-name {
+        padding-left: .3rem;
+        margin-right: .3rem;
     }
 }

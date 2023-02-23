@@ -7,7 +7,7 @@
     --sidebar-text-color: #565656;
 
     /* sizes */
-    --sidebar-width: 200px;
+    --sidebar-width: 248px;
     --header-height: 80px;
     --footer-height: 100px;
 }
@@ -224,4 +224,73 @@ footer {
     height: var(--footer-height);
     width: 100%;
     background-color: var(--footer-color);
+}
+
+.music-player{
+    display: flex;
+}
+
+.left-footer {
+    width: 30%;
+    height: var(--footer-height);
+    padding: 1rem;
+}
+
+.song-name {
+    padding-left: .7rem;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song {
+    font-weight: 600;
+    color: white;
+}
+
+.name {
+    color: var(--sidebar-text-color);
+}
+
+.left-symbols {
+    display: flex;
+    align-items: center;
+}
+
+.left-player-symbol {
+    color: var(--sidebar-text-color);
+    padding-left: 1rem;
+}
+
+.center-footer {
+    width: 40%;
+    height: var(--footer-height);
+    padding: 1rem;
+}
+
+.commands {
+    color: white;
+    text-align: center
+}
+
+.command-symbol {
+    font-size: 1.2rem;
+    padding: 0 0.4rem;
+}
+
+.play {
+    font-size: 1.5rem;
+    padding: 0 1rem;
+}
+
+.right-footer {
+    width: 30%;
+    height: var(--footer-height);
+
+    /* debug */
+    background-color: aqua;
+}
+.left-footer {
+    display: flex;
 }
