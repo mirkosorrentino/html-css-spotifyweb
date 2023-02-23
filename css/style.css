@@ -142,7 +142,7 @@ main {
     text-align: end;
     height: var(--header-height);
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 6);
     padding: 1.1rem;
 }
 
@@ -161,7 +161,7 @@ main {
 .content {
     height: calc(100vh - var(--header-height) - var(--footer-height));
     width: 100%;
-    padding-top: 1rem;
+    padding: 1rem;
     overflow-y: auto;
     background-color: var(--content-color);
 }
@@ -178,8 +178,40 @@ main {
     text-transform: uppercase;
 }
 
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .content-title {
     color: white;
+    padding-top: 1.5rem;
+}
+
+.content-subtitle {
+    font-size: 0.8rem;
+    color: var(--sidebar-text-color);
+    padding: 0.5rem 0;
+}
+
+.card {
+    width: calc(100% / 6 - 25px / 5);
+    margin-right: 5px;
+    margin-top: 1.5rem;
+}
+
+.song-title {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+}
+
+.album-subtitle {
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--sidebar-text-color);
+    padding-bottom: 1rem;
 }
 /* end content section */
 
