@@ -25,30 +25,30 @@
                     <a href=""><img src="img/logo-small.svg" alt="Spotify small logo" class="small-logo"></a>
                     <!-- navigation list -->
                     <ul class="navigation-list">
-                        <li><a href=""><img src="img/home.svg" alt="home icon" class="list-icon">
+                        <li class="gray"><a href=""><img src="img/home.svg" alt="home icon" class="list-icon gray">
                         <span class="text">Home</span></a></li>
-                        <li><a href=""><img src="img/search.svg" alt="search icon" class="list-icon">
+                        <li class="gray"><a href=""><img src="img/search.svg" alt="search icon" class="list-icon gray">
                         <span class="text">Cerca</span></a></li>
-                        <li><a href=""><img src="img/libreria.svg" alt="book shelf icon" class="list-icon">
+                        <li class="gray"><a href=""><img src="img/libreria.svg" alt="book shelf icon" class="list-icon gray">
                         <span class="text">La tua libreria</span></a></li>
                     </ul>
                     <!-- end navigation list -->
                     <!-- playlist -->
                     <h5 class="playlist-title">Playlist</h5>
                     <ul class="playlist">
-                        <li><a href=""><i class="fa-solid fa-square-plus symbol-list square-plus"></i>Crea Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
-                        <li><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href=""><i class="fa-solid fa-square-plus symbol-list square-plus"></i>Crea Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
+                        <li class="gray"><a href="">Nome Playlist</a></li>
                     </ul>
                     <!-- end playlist -->
                 </div>
                 <div>
-                    <a href=""><div class="download"><img src="img/download.svg" alt="download icon" class="sidebar-download-icon"><span class="text">Installa app</span></div></a>
+                    <a href=""><div class="download"><img src="img/download.svg" alt="download icon" class="sidebar-download-icon gray"><span class="text gray">Installa app</span></div></a>
                     <hr class="sidebar-footer-hr">
                     <div class="profile">
                         <a href=""><img src="img/profile.svg" alt="Profile photo" class="sidebar-profile-icon"><span class="text">John Doe</span></a>
@@ -66,20 +66,26 @@
                 <!-- content -->
                 <div class="content">
                     <div class="categories">
-                        <ul class="categories-list">
-                            <li><a href="">In evidenza</a></li>
-                            <li><a href="">Podcast</a></li>
-                            <li><a href="">Classifiche</a></li>
-                            <li><a href="">Generi e mood</a></li>
-                            <li><a href="">Nuove uscite</a></li>
-                            <li><a href="">Scopri</a></li>
+                        <ul class="categories-list ">
+                            <li class="gray relative">
+                                <a href="">In evidenza</a>
+                                <div class="green-line"></div></li>
+                            <li class="gray"><a href="">Podcast</a></li>
+                            <li class="gray"><a href="">Classifiche</a></li>
+                            <li class="gray"><a href="">Generi e mood</a></li>
+                            <li class="gray"><a href="">Nuove uscite</a></li>
+                            <li class="gray"><a href="">Scopri</a></li>
                         </ul>
+                        <div class="green-line"></div>
                     </div>
                     <!-- recently played -->
                     <h2 class="content-title">Recently played</h2>
                     <div class="grid">
                         <div class="card">
-                            <img src="img/metal_lifting.jpg" alt="Heavy Metal collection" class="albums">
+                            <div class="albums">
+                                <img src="img/metal_lifting.jpg" alt="Heavy Metal collection">
+                                <i class="fa-regular fa-circle-play play-hover"></i>
+                            </div>
                             <h5 class="song-title">Heavy metal</h5>
                             <div class="album-subtitle">Subtitle</div>
                         </div>
@@ -153,8 +159,8 @@
                         <div class="name">Brano name</div>
                     </div>
                     <div class="left-symbols">
-                        <i class="fa-regular fa-heart left-player-symbol heart"></i>
-                        <i class="fa-regular fa-folder left-player-symbol"></i>
+                        <a href=""><i class="fa-regular fa-heart left-player-symbol heart gray"></i></a>
+                        <a href=""><i class="fa-regular fa-folder left-player-symbol gray"></i></a>
                     </div>
                 </div>
                 <div class="center-footer">
@@ -169,6 +175,7 @@
                         <span class="listened-time">0:25</span>
                         <div class="bar">
                             <div class="listened-bar"></div>
+                            <div class="ball-hover"></div>
                         </div>
                         <span class="song-total-duration">4:35</span>
                     </div>
@@ -181,6 +188,7 @@
                     </div>
                     <div class="bar">
                         <div class="listened-bar"></div>
+                        <div class="ball-hover"></div>
                     </div>
                 </div>
             </div>

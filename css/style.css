@@ -47,6 +47,14 @@ ul {
     display: flex;
 }
 
+.gray:hover {
+    color: white;
+}
+
+.relative {
+    position: relative;
+}
+
 /* SIDEBAR */
 .sidebar {
     height: calc(100vh - var(--footer-height));
@@ -156,6 +164,10 @@ main {
     padding: 0.8rem 1rem;
     display: inline-block;
 }
+
+.upgrade-button:hover {
+    scale: 1.1;
+}
 /* end header*/
 /* content */
 .content {
@@ -168,6 +180,7 @@ main {
 
 .categories-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 70%;
     margin: 0 auto;
@@ -176,6 +189,15 @@ main {
 .categories-list li {
     color: var(--sidebar-text-color);
     text-transform: uppercase;
+}
+
+.green-line {
+    width: 45%;
+    height: 4px;
+    background-color: var(--hover-green-color);
+    position: absolute;
+    bottom: -0.4rem;
+    left: 1.6rem;
 }
 
 .grid {
@@ -217,6 +239,28 @@ main {
 .singers {
     border-radius: 50%;
 }
+
+.albums {
+    position: relative;
+}
+
+.play-hover {
+    display: none;
+}
+
+.albums:hover {
+    filter: opacity(.5);
+}
+
+.albums:hover .play-hover {
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    height: 50%;
+    transform: (-50%, -50%);
+    z-index: 100;
+}
 /* end content section */
 
 /* FOOTER */
@@ -254,6 +298,11 @@ footer {
     color: var(--sidebar-text-color);
 }
 
+.name:hover {
+    color: white;
+    text-decoration: underline;
+}
+
 .left-symbols {
     display: flex;
     align-items: center;
@@ -281,6 +330,14 @@ footer {
     padding: 0 0.4rem;
 }
 
+.play:hover {
+    scale: 1.1;
+}
+
+.command-symbol:hover {
+    scale: 1.1;
+}
+
 .play {
     font-size: 1.5rem;
     padding: 0 1rem;
@@ -303,6 +360,25 @@ footer {
     display: inline-block;
     vertical-align: middle;
     position: relative;
+}
+
+.bar:hover .listened-bar {
+    background-color: var(--hover-green-color);
+}
+
+.ball-hover {
+    display: none;
+}
+
+.bar:hover .ball-hover {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 3rem;
+    z-index: 100;
+    background-color: white;
 }
 
 .listened-bar {
