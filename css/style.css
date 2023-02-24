@@ -168,6 +168,20 @@ main {
 .upgrade-button:hover {
     scale: 1.1;
 }
+
+.green-line-vertical {
+    display: none;
+    height: 100%;
+    width: 4px;
+    position: absolute;
+    left: -1rem;
+    top: 0;
+    background-color: var(--hover-green-color);
+}
+
+.gray:hover .green-line-vertical {
+    display: block;
+}
 /* end header*/
 /* content */
 .content {
@@ -191,13 +205,18 @@ main {
     text-transform: uppercase;
 }
 
-.green-line {
+.green-line-horizontal {
+    display: none;
     width: 45%;
     height: 4px;
     background-color: var(--hover-green-color);
     position: absolute;
     bottom: -0.4rem;
     left: 1.6rem;
+}
+
+.gray:hover .green-line-horizontal {
+    display: block;
 }
 
 .grid {
